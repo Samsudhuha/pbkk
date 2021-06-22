@@ -27,4 +27,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('personal/index');
 	}
+	
+	public function welcome()
+	{
+		$this->load->view('welcome_message');
+	}
 }
